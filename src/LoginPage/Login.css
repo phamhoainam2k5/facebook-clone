@@ -1,0 +1,94 @@
+body {
+    /* font-size: 1.6rem helvetice; */
+    box-sizing: border-box;
+    background-color: #f0f2f5;
+    margin-top: 5.5%;
+}
+.login {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.text {
+    padding: 0.5rem;
+    font-size: 4rem;
+    font-weight: 770;
+    color: #1877f2;
+}
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: black;
+}
+.login-container {
+    border: rgb(255, 255, 255) .5rem solid;
+    background-color: white;
+    height: 23rem;
+    width: 27rem;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+input[type=text] {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 100%;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+input::placeholder {
+    font-size: 1.3rem;
+}
+.btn {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1877f2;
+    border: none;
+    box-sizing: border-box;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 8px 1px;
+    border-radius: .5rem;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.forget a {
+    color: #1877f2;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f2f5;
+    background-color: #42b72a;
+    border: none;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    width: 60%;
+    font-weight: bold;
+    border-radius: .5rem;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.login-detail {
+    border-bottom: .1rem black solid;
+}
