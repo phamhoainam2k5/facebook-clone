@@ -116,7 +116,7 @@
     color: #fff;
 }
 .register-date2 {
-    margin-left: -60px;
+    margin-left: -80px;
     margin-right: 10px !important;
     height: 40px;
     width: 130px;
@@ -156,11 +156,11 @@
     justify-content: space-between;
     border: 1px solid rgba(128, 128, 128, 0.8);
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 5px;
     margin-bottom: 10px;
 }
 .wrapper label {
-    margin-right: 55px;
+    margin-right: 45px;
 }
 
 .wrapper input {
