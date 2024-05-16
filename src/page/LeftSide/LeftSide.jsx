@@ -24,7 +24,6 @@ function LeftSide() {
         <ImageLayout src={feeds} text="Feeds" />
         <ImageLayout src={event} text="Event" />
         <ImageLayout src={adsmanager} text="Ads Manager" />
-        
     </div>
   )
 }
