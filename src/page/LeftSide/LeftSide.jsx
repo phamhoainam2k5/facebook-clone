@@ -1,5 +1,6 @@
 import React from 'react'
-import ImageLayout from '../ImageLayout/ImageLayout'
+import '../MainPage.css'
+import ImageLayout from '../LayoutLeftRight/ImageLayout'
 import avatar from '../../../public/images/dp0.png'
 import group from '../../../public/images/groups.png'
 import memories from '../../../public/images/memories.png'
@@ -10,11 +11,12 @@ import marketplace from '../../../public/marketplace.png'
 import feeds from '../../../public/feed.png'
 import event from '../../../public/event.png'
 import adsmanager from '../../../public/images/admanager.png'
+import AvataLayout from '../LayoutLeftRight/AvataLayout'
 
 function LeftSide() {
   return (
     <div className='left-side'>
-        <ImageLayout src={avatar} text="Hoài Nam" />
+        <AvataLayout name="Hoài Nam" />
         <ImageLayout src={group} text="Find friends"/>
         <ImageLayout src={memories} text="Memories" />
         <ImageLayout src={saved} text="Saved" />

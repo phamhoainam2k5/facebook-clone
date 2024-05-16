@@ -35,7 +35,6 @@ function Home() {
                 <div className='navbar-rightbar'>
                     <div className="navbar-right-tab">
                         <Avatar className='navbar-right-img' src='../public/images/dp0.svg'></Avatar>
-                        <div className='navbar-profilename'>Nam</div>
                     </div>
                 </div>
             </Grid>

@@ -4,3 +4,38 @@
     margin-top: 15px;
     margin-left: 130px;
 }
+.upload-top {
+    display: flex;
+}
+.upload-img {
+    margin: 15px;
+}
+.upload-box {
+    height: 40px;
+    width: 580px;
+    border: 0px;
+    background-color: #eff2f5;
+    border-radius: 30px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+.upload-box::placeholder {
+    font-size: 18px;
+}
+.upload-bottom {
+    border-top: 1px solid #e3e6ea;
+    display: flex;
+    margin: 0 15px;
+    padding-top: 5px;
+}
+.upload-tabs {
+    width: 150px;
+    display: flex;
+    padding-left: 60px;
+}
+.upload-text {
+    margin: 10px 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}

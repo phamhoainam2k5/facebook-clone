@@ -1,7 +1,5 @@
 import React from 'react'
 import '../MainPage.css'
-import { Avatar } from '@mui/material'
-import avatar from '../../../public/images/dp0.png'
 
 function ImageLayout({src, text}) {
   return (
