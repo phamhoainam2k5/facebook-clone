@@ -6,12 +6,13 @@ import avatar from '../../../public/images/dp0.png'
 function RightSide() {
   return (
     <div className='right-container'>
-        <div className='right-contact'>
+        <div className='right-header'>
             <h3>Contacts</h3>
             <AvataLayout src={avatar} name={"Nụ"} />
             <AvataLayout src={avatar} name={"Hằng"} />
             <AvataLayout src={avatar} name={"HƯơng"} />
             <AvataLayout src={avatar} name={"Thủy"} />
+            
         </div>
     </div>
   )

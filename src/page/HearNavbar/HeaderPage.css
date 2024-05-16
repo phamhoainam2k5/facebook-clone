@@ -1,5 +1,15 @@
 .navbar-main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: #fff;
     border-bottom: 1px solid #dbdbde;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 .navbar-logo {
     margin: 8px 16px;
@@ -46,4 +56,5 @@
 }
 .mainpage-container {
     display: flex;
+    margin-top: 60px;
 }
