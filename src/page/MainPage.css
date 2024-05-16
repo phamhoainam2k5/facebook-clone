@@ -2,15 +2,9 @@
     height: 100vh;
     background-color: #eff2f5;
 }
-.left-side {
-    
-}
 .imglayout-container {
     display: flex;
     margin: 15px;
-}
-.imglayout-imglayout {
-
 }
 .imglayout-img {
     max-height: 35px;

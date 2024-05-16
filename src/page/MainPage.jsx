@@ -2,6 +2,7 @@ import React from 'react'
 import './MainPage.css'
 import { Grid } from '@mui/material'
 import LeftSide from './LeftSide/LeftSide'
+import UploadSection from './UploadSection/UploadSection'
 
 function MainPage() {
   return (
@@ -10,8 +11,8 @@ function MainPage() {
             <Grid item xs={3}>
                 <LeftSide />
             </Grid>
-            <Grid item xs={3}>
-                Middle
+            <Grid item xs={6}>
+                <UploadSection/>
             </Grid>
             <Grid item xs={3}>
                 Right
