@@ -1,6 +1,7 @@
 import React from 'react'
 import './UploadSection.css'
-import { Paper, Avatar } from '@mui/material'
+import { Paper, Avatar, Link } from '@mui/material'
+import { Link as RouterLink } from 'react-router-dom';
 import live from '../../../public/images/video.png';
 import image from '../../../public/images/image.png'
 import feeling from '../../../public/images/feelings.png';
@@ -14,21 +15,11 @@ function UploadSection() {
                     <Avatar className='upload-img' />
                 </div>
                 <div>
-                    <input type="text" className="upload-box" placeholder="What's on your mind?"/>
-                </div>
-            </div>
-            <div className='upload-bottom'>
-                <div className='upload-tabs'>
-                    <img src={live} width={35} />
-                    <div className='upload-text'>Live Video</div>
-                </div>
-                <div className='upload-tabs'>
-                    <img src={image} width={35} />
-                    <div className='upload-text'>Photo/Video</div>
-                </div>
-                <div className='upload-tabs'>
-                    <img src={feeling} width={35} />
-                    <div className='upload-text'>Feeling/activity</div>
+                    <Link component={RouterLink} to="/create-post" underline="none">
+                        <span className="upload-box">
+                            What's on your mind ?
+                        </span>
+                    </Link>
                 </div>
             </div>
         </Paper>

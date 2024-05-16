@@ -1,17 +1,16 @@
 import React from 'react'
 import '../MainPage.css'
 import AvataLayout from '../LayoutLeftRight/AvataLayout'
-import avatar from '../../../public/images/dp0.png'
 
 function RightSide() {
   return (
     <div className='right-container'>
         <div className='right-header'>
             <h3>Contacts</h3>
-            <AvataLayout src={avatar} name={"Nụ"} />
-            <AvataLayout src={avatar} name={"Hằng"} />
-            <AvataLayout src={avatar} name={"HƯơng"} />
-            <AvataLayout src={avatar} name={"Thủy"} />
+            <AvataLayout name={"Phạm Văn Tuấn"} />
+            <AvataLayout name={"Nguyễn Thị Thu Hằng"} />
+            <AvataLayout name={"Phạm Thị Thanh Nhàn"} />
+            <AvataLayout name={"Nguyễn Thị Hoàng Thủy"} />
             
         </div>
     </div>
