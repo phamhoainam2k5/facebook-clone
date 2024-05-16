@@ -10,7 +10,7 @@
     align-items: center;
 }
 .login-logo {
-    height: 85px;
+    height: 100px;
     margin-top: 35px;
 }
 .login-container {
@@ -18,7 +18,7 @@
     flex-direction: column;
     border: 1px solid #dddfe2;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 1), 0 8px 16px rgba(0, 0, 0, 1);
+    box-shadow: 0 2px 4px #cec8c8;
     height: 312px;
     width: 396px;
     background-color: #fff;
@@ -34,7 +34,7 @@
     height: 50px;
     margin-bottom: 10px;
     background-color: white;
-    width: 303px;
+    width: 333px;
     border: 0.5px solid gray;
     border-radius: 5px;
     outline: none;
@@ -68,7 +68,7 @@
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
-    width: 332px;
+    width: 360px;
     color: #fff;
 }
 .sideinfo {
@@ -94,4 +94,10 @@
 }
 .sideinfo h5:hover {
     text-decoration: underline;
+}
+.dot {
+    margin: 0 5px;
+}
+.dot:hover {
+    text-decoration: none;
 }

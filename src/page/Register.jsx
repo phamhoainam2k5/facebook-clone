@@ -7,7 +7,7 @@ function Register() {
     <div className='register'>
       <img src="../../public/fb logo.svg" alt="" className='register-logo'/>
       <div className="register-container">
-        <h1>Sign Up</h1>
+        <h1>Create a new account</h1>
         <p>It's quick and easy.</p>
         <div className="hr3"></div>
         <form>
@@ -107,14 +107,19 @@ function Register() {
             </div>
             <div className='wrapper'>
               <label>Custom</label>
-              <input type="radio" name="gender" value='Custom'/>
+              <input type="radio" name="gender" value='Other'/>
             </div>
           </div>
           <center>
-              <button type='submit' className='register-register'>SignUp</button>
+            <h5 className='register-text m-10'>People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more</a>.</h5>
+            
+            <h5 className='register-text'>By clicking Sign Up, you agree to our <a>Terms</a>, <a href="">Privacy Policy</a> and <a href="">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</h5>
           </center>
           <center>
-            <Link to="/login">
+              <button type='submit' className='register-register'>Sign Up</button>
+          </center>
+          <center>
+            <Link to="/">
               <p className='register-login'>Already have an account ?</p>
             </Link>
           </center>

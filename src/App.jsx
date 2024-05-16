@@ -1,15 +1,19 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Login from './page/Login'
-import Register from './page/Register'
+import LoginPage from './page/Login'
+import RegisterPage from './page/Register'
+import HeaderPage from './Layout'
+import MainPage from './page/MainPage'
 
 function App() {
-
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/login' element={<Login />}></Route>
-          <Route path='/register' element={<Register />}></Route>
+          <Route path='/' element={<LoginPage />}></Route>
+          <Route path='/register' element={<RegisterPage />}></Route>
+          <Route  element={<HeaderPage />}>
+            <Route path='/home' element={<MainPage/>}></Route>
+          </Route>
         </Routes>
       </BrowserRouter>
     </>
