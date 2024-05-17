@@ -16,9 +16,11 @@ function Login() {
                     <input type="password" placeholder='Password'/>
                 </center>
                 <center>
-                    <button type='submit' className='login-login'>
-                        Login
-                    </button>
+                    <Link to='/home' style={{ textDecoration: 'none' }}>
+                        <button type='submit' className='login-login'>
+                            Login
+                        </button>
+                    </Link>
                 </center>
                 <center>
                     <div className="sideinfo">

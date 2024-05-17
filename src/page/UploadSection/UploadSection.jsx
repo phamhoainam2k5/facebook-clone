@@ -1,30 +1,34 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './UploadSection.css'
-import { Paper, Avatar, Link } from '@mui/material'
+import { Paper, Avatar, Link } from '@mui/material';
 import { Link as RouterLink } from 'react-router-dom';
-import live from '../../../public/images/video.png';
-import image from '../../../public/images/image.png'
-import feeling from '../../../public/images/feelings.png';
+import CreatePost from '../CreatePostContainer/CreatePost'
 
 function UploadSection() {
-  return (
-    <div>
-        <Paper className='upload-container'>
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => setOpen(true);
+    const handleCloseModal = () => setOpen(false);
+      
+    return (
+        <div>
+          <Paper className='upload-container'>
             <div className='upload-top'>
-                <div>
-                    <Avatar className='upload-img' />
-                </div>
-                <div>
-                    <Link component={RouterLink} to="/create-post" underline="none">
-                        <span className="upload-box">
-                            What's on your mind ?
-                        </span>
-                    </Link>
-                </div>
+              <div>
+                <Avatar className='upload-img' />
+              </div>
+              <div>
+                <Link component={RouterLink} underline="none" onClick={handleOpen}>
+                    <span className="upload-box">
+                        What's on your mind?
+                    </span>
+                </Link>
+              </div>
             </div>
-        </Paper>
-    </div>
-  )
+          </Paper>
+          <CreatePost open={open} handleCloseModal={handleCloseModal}/>
+        </div>
+    );
 }
 
 export default UploadSection
