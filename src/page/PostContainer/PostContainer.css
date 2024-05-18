@@ -21,6 +21,21 @@
 .post-time {
     font-size: 12px;
 }
+.post-ellipsis {
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+.post-ellipsis:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.post-ellipsis > img {
+    width: 30px;
+    height: 30px;
+    padding: auto;
+}
 .post-content {
     margin-left: 15px;
 }

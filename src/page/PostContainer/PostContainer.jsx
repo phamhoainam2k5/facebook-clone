@@ -6,6 +6,7 @@ import like from '../../../public/images/like.png'
 import likebutton from '../../../public/images/likebutton.png'
 import comment from '../../../public/images/comment.png'
 import share from '../../../public/images/share.png'
+import ellipsis from '../../../public/ellipsis.svg'
 
 function PostContainer() {
   return (
@@ -21,6 +22,9 @@ function PostContainer() {
                     <div className='post-time'>
                         2 day ago.
                     </div>
+                </div>
+                <div className='post-ellipsis'>
+                    <img src={ellipsis} style={{height: '20px', width: '20px'}}/>
                 </div>
             </div>
             {/* content */}
