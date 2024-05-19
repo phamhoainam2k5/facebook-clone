@@ -10,7 +10,7 @@ import ellipsis from '../../../public/ellipsis.svg'
 
 function PostContainer() {
   return (
-    <div>
+    <div style={{display: 'flex', justifyContent: 'center'}}>
         <Paper className='post-container'>
             {/* header */}
             <div className='post-header'>

@@ -10,14 +10,14 @@ function MainPage() {
   return (
     <div className='mainpage-container'>
         <Grid container>
-            <Grid item xs={3} className='leftContainer'>
+            <Grid item xs={12} mb={3} className='leftContainer'>
                 <LeftSide />
             </Grid>
-            <Grid item xs={6} className='middleContainer'>
+            <Grid item xs={12} mb={6} className='middleContainer'>
                 <UploadSection />
                 <Post />
             </Grid>
-            <Grid item xs={3} className='rightContainer'>
+            <Grid item xs={12} mb={3} className='rightContainer'>
                 <RightSide />
             </Grid>
         </Grid>

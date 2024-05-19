@@ -2,10 +2,10 @@
     height: 72px;
     width: 690px;
     margin-top: 15px;
-    margin-left: 130px;
 }
 .upload-top {
     display: flex;
+    width: 690px;
 }
 .upload-img {
     margin: 15px;

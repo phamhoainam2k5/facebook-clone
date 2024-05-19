@@ -43,6 +43,10 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+/* Middle */
+.middleContainer {
+    justify-content: center;
+}
 
 /* Create Post */
 .create-post-grid-header {
@@ -57,4 +61,15 @@ margin-inline: auto;
 }
 .createpost-select > ul > li {
     padding: 0;
+}
+
+@media (max-width: 1500px) {
+    .left-side, .right-container {
+      width: 250px;
+    }
+}
+@media (max-width: 1270px) {
+    .left-side, .right-container {
+        display: none;
+    }
 }

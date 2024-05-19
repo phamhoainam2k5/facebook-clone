@@ -11,7 +11,7 @@ function UploadSection() {
     const handleCloseModal = () => setOpen(false);
       
     return (
-        <div>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
           <Paper className='upload-container'>
             <div className='upload-top'>
               <div>

@@ -12,20 +12,37 @@
     padding: 0 20px;
 }
 .navbar-logo {
-    margin: 8px 16px;
+    width: 40px;
+    margin: 8px 8px;
 }
 .navbar-leftbar{
     display: flex;
     justify-content: left;
 }
+.navbar-search-container {
+    position: relative;
+    width: fit-content; /* Để chứa vừa nội dung */
+}
+.navbar-search-logo {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Điều chỉnh vị trí ngang của icon */
+    transform: translateY(-50%);
+    width: 20px; /* Đảm bảo chiều rộng của icon */
+    height: auto; /* Đảm bảo tỷ lệ của icon */
+}
+.navbar-search-logo:hover {
+    cursor: pointer;
+}
 .navbar-search {
-    height: 4.5vh;
-    width: 25vh;
+    height: 40px;
+    width: 23vh;
     border-radius: 25px;
     border: 0px;
     background-color: #eff2f5;
     font-size: 16px;
-    padding-left: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
     margin-top: 8px;
 }
 .navbar-container {
@@ -43,7 +60,6 @@
 .navbar-rightbar {
     display: flex;
     justify-content: flex-end;
-
 }
 .navbar-right-tab {
     display: flex;
@@ -57,4 +73,9 @@
 .mainpage-container {
     display: flex;
     margin-top: 60px;
+}
+@media (max-width: 1270px) {
+    .navbar-middle-container {
+        visibility: hidden;
+    }
 }
