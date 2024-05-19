@@ -24,9 +24,10 @@
     color: black; /* Màu chữ */
     text-decoration: none; /* Bỏ gạch chân */
 }
+
 .upload-box:hover {
-    background-color: #d0d3d6;
+background-color: #d0d3d6;
 }
 .upload-box::placeholder {
-    font-size: 18px;
+font-size: 18px;
 }

@@ -26,7 +26,7 @@ function Home() {
                     <div className='navbar-tabs'>
                         <img src="../public/images/market.svg" width={35} height={35}/>
                     </div>
-                    <div className='navbar-tabs'>
+                    <div className='navbar-tabs active'>
                         <img src="../public/images/groups.svg" width={35} height={35}/>
                     </div>
                 </div>
