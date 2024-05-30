@@ -25,7 +25,7 @@
 }
 .navbar-search-logo {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 10px; /* Điều chỉnh vị trí ngang của icon */
     transform: translateY(-50%);
     width: 20px; /* Đảm bảo chiều rộng của icon */
@@ -75,7 +75,23 @@
     margin-top: 60px;
 }
 @media (max-width: 1270px) {
+    .navbar-logo {
+        width: 40px;
+        margin: 8px 8px;
+    }
+    .navbar-search {
+        width: 0vh;
+        padding-right: 3px;
+    }
+    /* .navbar-middle-container {
+        visibility: hidden;
+    } */
+}
+@media (max-width: 900px) {
     .navbar-middle-container {
+        visibility: hidden;
+    }
+    .navbar-right-img {
         visibility: hidden;
     }
 }

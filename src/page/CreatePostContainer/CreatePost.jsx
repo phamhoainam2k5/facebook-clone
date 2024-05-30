@@ -64,6 +64,7 @@ const CreatePost = ({ open, handleCloseModal }) => {
                     <Select className='createpost-select' value={postVisibility} onChange={handleSelectChange}>
                         <MenuItem value="public" style={{padding: "0 0 0 16px" }}>public</MenuItem>
                         <MenuItem value="private" style={{padding: "0 0 0 16px" }}>private</MenuItem>
+                        <MenuItem value="friends" style={{padding: "0 0 0 16px" }}>friends</MenuItem>
                     </Select>                
                 </Grid>
 

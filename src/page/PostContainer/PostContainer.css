@@ -61,15 +61,26 @@
     margin: 0 15px;
 }
 .post-tab {
-    margin-left: 55px;
-    margin-top: 5px;
+    margin-top: 6px;
     display: flex;
     width: 230px;
+    justify-content: center;
+    border: none;
+    background-color: white;
+}
+.post-tab:hover {
+    border-radius: 5px;
+    background-color: #cacaca;
 }
 .post-tabimg {
-    height: 30px;
+    margin-top: 3px;
+    max-height: 25px;
+    max-width: 25px;
 }
 .post-tabtext {
-    margin-top: 5px;
-    margin-left: 5px;
+    margin-top:7px;
+    margin-left: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #686868;
 }

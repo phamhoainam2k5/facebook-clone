@@ -73,6 +73,7 @@ function Register() {
               <option value="12">Dec</option>
             </select>
             <select className='register-date3'>
+              <option value="">Year</option>
               <option value="2023">2023</option>
               <option value="2023">2022</option>
               <option value="2023">2021</option>

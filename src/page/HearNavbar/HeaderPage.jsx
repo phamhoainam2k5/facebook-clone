@@ -8,7 +8,7 @@ function Home() {
             <Grid container className='navbar-main'>
                 <Grid item xs ={12} md={3} className='navbar-left-container'>
                     <div className='navbar-leftbar'>
-                        <img className='navbar-logo' src="../public/facebook.svg"/>
+                        <img className='navbar-logo' src="../public/facebook.svg" />
                         <div className="navbar-search-container">
                             <span className="navbar-search-logo" id="searchIcon">
                                 <img src="../public/search.svg" width={20}/>
@@ -31,7 +31,7 @@ function Home() {
                         <div className='navbar-tabs'>
                             <img src="../public/images/market.svg" width={35} height={35}/>
                         </div>
-                        <div className='navbar-tabs active'>
+                        <div className='navbar-tabs'>
                             <img src="../public/images/groups.svg" width={35} height={35}/>
                         </div>
                     </div>
